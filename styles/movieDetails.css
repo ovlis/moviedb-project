@@ -1,0 +1,146 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.checked {
+    color: orange;
+}
+
+
+.posterAndStars {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 800px;
+    width: 50%;
+    background-color: #f3f3f3;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.titleGenresOverview {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.posterAndStars .moviePoster {
+    width: 500px;
+    height: 750px;
+}
+
+.posterAndStars .stars .fa {
+    padding-top: 4px;
+    font-size: 40px;
+}
+
+.posterAndStars .stars .first {
+    margin-left: 150px;
+}
+
+.titleGenresOverview .movieTitle {
+    height: 120px;
+    background-color: #f3f3f3;
+    overflow: auto;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.titleGenresOverview .movieTitle h1 {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.titleGenresOverview .genreIcons {
+    height: 100px;
+    background-color:white;
+    overflow: auto;
+    margin-left: 20px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0 0px 1px 0;
+}
+
+.titleGenresOverview .genreIcons .genreIcon .genreIconImg {
+    box-sizing: unset;
+    height: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    background-color: #f3f3f3;
+    border-radius: 40% 40% 50% 00%;
+    border: lightgray solid 1px;
+}
+
+.titleGenresOverview .movieOverview .overviewCaption  {
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 50px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.titleGenresOverview .movieOverview .overviewCaption h2{
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+.titleGenresOverview .movieOverview .overviewContent {
+    height: 530px;
+    overflow: auto;
+    padding: 15px;
+    font-size: 1.2em;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+}
+
+* {
+    line-height: 1.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+div.home #homeButton {
+    margin: 30px auto;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

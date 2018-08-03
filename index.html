@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MoviesDB</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <!-- Search bar -->
+    <div class="row">
+        <div class="col-lg-6" id='searchBar'>
+            <div class="input-group">
+                <input id="movieQueryInput" type="text" class="form-control" placeholder="Search for...">
+            </div>
+            <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-6 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Posters -->
+    <div class="row moviesTemplate">
+        <!-- This is where the elements are added -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index/libraries/handlebars-v4.0.11.js"></script>
+    
+    <script src="index/scripts/app/moviedbObject.js"></script>
+    <script src='index/scripts/app/movieClass.js'></script>
+    <script src="index/scripts/ui/thumbnailUI.js"></script>
+    <script src="index/scripts/app/infinityScroll.js"></script>
+    <script src="index/scripts/app/loadPopularMovies.js"></script>
+    <script src="index/scripts/app/thumbnailsEvents.js"></script>
+    <script src="index/scripts/ui/clearList.js"></script>
+    <script src="index/scripts/app/loadMovies.js"></script>
+    <script src="index/scripts/app/manageMoviesData.js"></script>
+    <script src="index/scripts/app/main.js"></script>
+</body>
+
+</html>
